@@ -1,10 +1,11 @@
-import Projetos from "./components/Projetos"
+import Projetos from "./components/Projetos/Projetos.jsx";
+import NavBar from "./components/NavBar/NavBar.jsx";
 
 function App() {
   return (
     <>
-      <h1>Portfólio da M1 </h1>
-      <Projetos/>
+      <NavBar />
+      {/* <Projetos /> */}
     </>
   );
 }

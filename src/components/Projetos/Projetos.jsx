@@ -1,9 +1,9 @@
 import { useState } from "react"; //importando o hook useState que nos permite guardar e controlar estados
 
 //Importando as imagens que serão utilizadas bno projeto
-import PetAdopt from "../assets/petadopt.jpeg";
-import ReciclaTech from "../assets/reciclatech.jpeg";
-import VerdeAcao from "../assets/verdeacao.jpeg";
+import PetAdopt from "../../assets/petadopt.jpeg";
+import ReciclaTech from "../../assets/reciclatech.jpeg";
+import VerdeAcao from "../../assets/verdeacao.jpeg";
 
 function Projetos() {
   const [projetos, setProjetos] = useState([
